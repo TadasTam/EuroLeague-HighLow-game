@@ -1,0 +1,58 @@
+﻿body{
+    background-color: #f9f1fe;
+}
+
+input[type="submit"] 
+{
+    border-radius: 15px;
+    border: solid;
+    border-color: purple;
+    border-width: 3px;
+    color: black;
+    text-align: center;
+    transition: all 0.5s;
+    cursor: crosshair;
+}
+
+input[type="submit"]:hover, #Button2:hover, #Button3:hover, #Button4:hover {
+        color: white;
+        background-color: mediumpurple;
+        transition-duration: 0.7s;
+    }
+
+    input[type="submit"]:active, #Button2:active, #Button3:active, #Button4:active {
+        color: black;
+        background-color: white;
+        transition-duration: 0.25s;
+    }
+
+#Button2 {
+    background-color: lawngreen;
+    width: 100px;
+}
+
+#Button3 {
+    background-color: yellow;
+    width: 100px;
+}
+
+#Button4 {
+    background-color: orangered;
+    width: 100px;
+}
+
+tr:hover{
+    color: purple;
+}
+
+table {
+    border-style: solid;
+    border-color: rebeccapurple;
+    border-width: 5px;
+    padding: 2px;
+}
+
+.container
+{
+    background-color: #f2e4fd;
+}
